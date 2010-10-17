@@ -6,8 +6,8 @@
 
 Summary:	Schema handler module
 Name:		apache-%{mod_name}
-Version:	0.1.7
-Release:	%mkrel 6
+Version:	0.1.8
+Release:	%mkrel 1
 Group:		System/Servers
 License:	LGPL
 URL:		http://sourceforge.net/projects/modschema
