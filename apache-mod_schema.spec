@@ -74,3 +74,54 @@ rm -rf %{buildroot}
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/httpd/modules.d/%{mod_conf}
 %attr(0755,root,root) %{_libdir}/apache-extramodules/%{mod_so}
 
+
+
+%changelog
+* Sat Feb 11 2012 Oden Eriksson <oeriksson@mandriva.com> 0.1.8-5mdv2012.0
++ Revision: 772758
+- rebuild
+
+* Tue May 24 2011 Oden Eriksson <oeriksson@mandriva.com> 0.1.8-4
++ Revision: 678412
+- mass rebuild
+
+* Thu Dec 02 2010 Paulo Andrade <pcpa@mandriva.com.br> 0.1.8-3mdv2011.0
++ Revision: 605245
+- Rebuild with apr with workaround to issue with gcc type based
+
+* Sun Oct 24 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.8-2mdv2011.0
++ Revision: 588058
+- rebuild
+
+* Sun Oct 17 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.8-1mdv2011.0
++ Revision: 586383
+- 0.1.8
+
+* Mon Mar 08 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-6mdv2010.1
++ Revision: 516174
+- rebuilt for apache-2.2.15
+
+* Sat Aug 01 2009 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-5mdv2010.0
++ Revision: 406644
+- rebuild
+
+* Tue Jan 06 2009 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-4mdv2009.1
++ Revision: 326231
+- rebuild
+
+* Mon Jul 14 2008 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-3mdv2009.0
++ Revision: 235081
+- rebuild
+
+* Thu Jun 05 2008 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-2mdv2009.0
++ Revision: 215630
+- fix rebuild
+- hard code %%{_localstatedir}/lib to ease backports
+
+* Tue May 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-1mdv2009.0
++ Revision: 202078
+- import apache-mod_schema
+
+
+* Tue May 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-1mdv2009.0
+- initial Mandriva package
