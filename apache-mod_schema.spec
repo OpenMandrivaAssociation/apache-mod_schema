@@ -10,7 +10,7 @@ Version:	0.1.8
 Release:	6
 Group:		System/Servers
 License:	LGPL
-URL:		http://sourceforge.net/projects/modschema
+URL:		https://sourceforge.net/projects/modschema
 Source0:	%{mod_name}-%{version}.tar.gz
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
